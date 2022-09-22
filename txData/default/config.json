@@ -1,0 +1,35 @@
+{
+  "global": {
+    "serverName": "Test-Server-F",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Tab"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "resourceStartingTolerance": 120
+  },
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join http://discord.gg/example.\nYour Request ID: <id>",
+    "wipePendingWLOnStart": true
+  },
+  "webServer": {
+    "disableNuiSourceCheck": false
+  },
+  "discordBot": {
+    "enabled": false,
+    "prefix": "!",
+    "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "autostart": true,
+    "serverDataPath": "C:/Users/Administrator/Desktop/Test-Server/FiveM-Server/txData/QBCoreFramework_2B704B.base/",
+    "cfgPath": "C:/Users/Administrator/Desktop/Test-Server/FiveM-Server/txData/QBCoreFramework_2B704B.base/server.cfg",
+    "onesync": "on"
+  }
+}
